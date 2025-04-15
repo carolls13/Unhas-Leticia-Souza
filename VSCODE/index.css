@@ -1,0 +1,111 @@
+body {
+   color: white;
+   background-color: #ccc7c3;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 16px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+img {
+   width: 200px;  
+   height: 200px; 
+   border-radius: 50%;  
+   object-fit: cover; 
+}
+
+.center {
+   text-align: center;
+}
+
+h1 {
+   color: #816438;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+   color: #816438;
+}
+
+.rom {
+   color: white;
+   background-color: #ccc7c3;
+}
+
+.img-rede-social {
+   width: 16px;           
+   height: 15px;
+   border-radius: 50%;    
+   object-fit: cover;     
+   display: block;
+   margin: 10px auto;
+
+ }
+
+ .rede-item {
+   display: flex;           
+   align-items: center;       
+   justify-content: center;     
+   gap: 10px;                    
+   margin-bottom: 20px;   
+ }      
+ 
+ a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+ .rede-item {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 20px;
+ }
+ 
+ .rede-item {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 20px;
+ }
+ 
+.rom .rede-item {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 15px;
+ }
+ 
+ .rom .img-rede-social {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   object-fit: cover;
+ }
+ 
+ /* Corrige apenas as imagens e links dentro de .rom */
+.rom .rede-item {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 15px;
+ }
+ 
+ .rom .rede-item img.img-rede-social {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   object-fit: cover;
+ }
+ 
